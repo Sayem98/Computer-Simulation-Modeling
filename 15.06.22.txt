@@ -1,0 +1,40 @@
+//Downlaoad Ubittorrent from:
+Public
+Outside
+Within
+Derived
+Other
+             Private
+                X
+             Within
+                X
+                X
+                           Internal
+                              X
+                           Within
+                           Derived
+                              X
+                                        External
+                                         Outside
+                                            X
+                                         Derived
+                                          Other
+
+
+pragma solidity>=0.5.0<0.9.0;
+-contractA{
+function f1()public pure returns(uint)
+-{
+    return1;
+}
+function f2()private pure returns(uint)
+(
+    return2;
+}
+function f3()internal pure returns(uint)
+    return3;
+}
+function f4()external pure returns(uint)
+{
+    return4;
+}
